@@ -481,3 +481,53 @@ selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // C (RDI
 // TclEventType: FILE_SET_CHANGE
 // Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 57m:03s
 // Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 57m:07s
+// Elapsed time: 47 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "sevenseg_decoder_tb.vhd", 0); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// Elapsed time: 14 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "sevenseg_decoder.vhd", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// Elapsed time: 27 seconds
+selectCodeEditor("sevenseg_decoder.vhd", 180, 286); // ae (sevenseg_decoder.vhd)
+selectCodeEditor("sevenseg_decoder.vhd", 180, 286, false, false, false, false, true); // ae (sevenseg_decoder.vhd) - Double Click
+selectCodeEditor("sevenseg_decoder.vhd", 171, 259); // ae (sevenseg_decoder.vhd)
+selectCodeEditor("sevenseg_decoder.vhd", 171, 259, false, false, false, false, true); // ae (sevenseg_decoder.vhd) - Double Click
+// Elapsed time: 10 seconds
+selectCodeEditor("sevenseg_decoder.vhd", 172, 240); // ae (sevenseg_decoder.vhd)
+selectCodeEditor("sevenseg_decoder.vhd", 172, 240, false, false, false, false, true); // ae (sevenseg_decoder.vhd) - Double Click
+selectCodeEditor("sevenseg_decoder.vhd", 175, 221); // ae (sevenseg_decoder.vhd)
+selectCodeEditor("sevenseg_decoder.vhd", 175, 221, false, false, false, false, true); // ae (sevenseg_decoder.vhd) - Double Click
+selectCodeEditor("sevenseg_decoder.vhd", 176, 188); // ae (sevenseg_decoder.vhd)
+selectCodeEditor("sevenseg_decoder.vhd", 176, 188, false, false, false, false, true); // ae (sevenseg_decoder.vhd) - Double Click
+selectCodeEditor("sevenseg_decoder.vhd", 173, 202); // ae (sevenseg_decoder.vhd)
+selectCodeEditor("sevenseg_decoder.vhd", 173, 202, false, false, false, false, true); // ae (sevenseg_decoder.vhd) - Double Click
+selectCodeEditor("sevenseg_decoder.vhd", 171, 175); // ae (sevenseg_decoder.vhd)
+selectCodeEditor("sevenseg_decoder.vhd", 171, 175, false, false, false, false, true); // ae (sevenseg_decoder.vhd) - Double Click
+// Elapsed time: 13 seconds
+selectCodeEditor("sevenseg_decoder.vhd", 162, 158); // ae (sevenseg_decoder.vhd)
+selectCodeEditor("sevenseg_decoder.vhd", 162, 158, false, false, false, false, true); // ae (sevenseg_decoder.vhd) - Double Click
+selectCodeEditor("sevenseg_decoder.vhd", 158, 134); // ae (sevenseg_decoder.vhd)
+selectCodeEditor("sevenseg_decoder.vhd", 158, 134, false, false, false, false, true); // ae (sevenseg_decoder.vhd) - Double Click
+selectCodeEditor("sevenseg_decoder.vhd", 187, 116); // ae (sevenseg_decoder.vhd)
+selectCodeEditor("sevenseg_decoder.vhd", 187, 116, false, false, false, false, true); // ae (sevenseg_decoder.vhd) - Double Click
+selectCodeEditor("sevenseg_decoder.vhd", 174, 99); // ae (sevenseg_decoder.vhd)
+selectCodeEditor("sevenseg_decoder.vhd", 174, 99, false, false, false, false, true); // ae (sevenseg_decoder.vhd) - Double Click
+selectCodeEditor("sevenseg_decoder.vhd", 175, 76); // ae (sevenseg_decoder.vhd)
+selectCodeEditor("sevenseg_decoder.vhd", 175, 76, false, false, false, false, true); // ae (sevenseg_decoder.vhd) - Double Click
+// HMemoryUtils.trashcanNow. Engine heap size: 833 MB. GUI used memory: 92 MB. Current time: 3/5/25, 11:08:39 PM MST
+selectCodeEditor("sevenseg_decoder.vhd", 176, 54); // ae (sevenseg_decoder.vhd)
+selectCodeEditor("sevenseg_decoder.vhd", 176, 54, false, false, false, false, true); // ae (sevenseg_decoder.vhd) - Double Click
+selectCodeEditor("sevenseg_decoder.vhd", 180, 42); // ae (sevenseg_decoder.vhd)
+selectCodeEditor("sevenseg_decoder.vhd", 180, 42, false, false, false, false, true); // ae (sevenseg_decoder.vhd) - Double Click
+selectCodeEditor("sevenseg_decoder.vhd", 181, 35); // ae (sevenseg_decoder.vhd)
+selectCodeEditor("sevenseg_decoder.vhd", 181, 35, false, false, false, false, true); // ae (sevenseg_decoder.vhd) - Double Click
+// Elapsed time: 58 seconds
+selectCodeEditor("sevenseg_decoder.vhd", 177, 203); // ae (sevenseg_decoder.vhd)
+selectCodeEditor("sevenseg_decoder.vhd", 177, 203, false, false, false, false, true); // ae (sevenseg_decoder.vhd) - Double Click
+// Elapsed time: 10 seconds
+selectCodeEditor("sevenseg_decoder.vhd", 172, 175); // ae (sevenseg_decoder.vhd)
+selectCodeEditor("sevenseg_decoder.vhd", 172, 175, false, false, false, false, true); // ae (sevenseg_decoder.vhd) - Double Click
+selectCodeEditor("sevenseg_decoder.vhd", 176, 148); // ae (sevenseg_decoder.vhd)
+selectCodeEditor("sevenseg_decoder.vhd", 176, 148, false, false, false, false, true); // ae (sevenseg_decoder.vhd) - Double Click
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // C (RDIResourceCommand.RDICommands_SAVE_FILE)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 01h:01m:33s

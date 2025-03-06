@@ -38,3 +38,8 @@ WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-f
 WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C27Mark_Albert.Alano\ece281\ece281lab2\src\sevenseg_decoder_tb.vhd:]
 WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C27Mark_Albert.Alano\ece281\ece281lab2\src\sevenseg_decoder_tb.vhd:]
 ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C27Mark_Albert.Alano\ece281\ece281lab2\src\sevenseg_decoder_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C27Mark_Albert.Alano\ece281\ece281lab2\src\sevenseg_decoder.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C27Mark_Albert.Alano\ece281\ece281lab2\src\sevenseg_decoder_tb.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\C27Mark_Albert.Alano\ece281\ece281lab2\src\sevenseg_decoder_tb.vhd:]
+ERROR: [Common 17-180] Spawn failed: No error
