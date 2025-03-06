@@ -151,3 +151,333 @@ Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 // Tcl Message: open_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 1129.480 ; gain = 86.727 
 // Project name: binaryHexDisp; location: C:/Users/C27Mark_Albert.Alano/ece281/ece281lab2/src; part: xc7a35tcpg236-1
 dismissDialog("Open Project"); // bh (Open Project Progress)
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 118 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sevenseg_decoder(Behavioral) (sevenseg_decoder.vhd)]", 2, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sevenseg_decoder(Behavioral) (sevenseg_decoder.vhd)]", 2, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sevenseg_decoder(Behavioral) (sevenseg_decoder.vhd)]", 2, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // J (PAResourceOtoP.PAViews_CODE, PlanAheadTabCode)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 3); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 3); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+// [GUI Memory]: 148 MB (+8989kb) [00:02:37]
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 4); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 5); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, sevenseg_decoder_tb(Behavioral) (sevenseg_decoder_tb.vhd)]", 8, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, sevenseg_decoder_tb(Behavioral) (sevenseg_decoder_tb.vhd)]", 8, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+// Elapsed time: 718 seconds
+selectCodeEditor("sevenseg_decoder_tb.vhd", 485, 264); // ae (sevenseg_decoder_tb.vhd)
+// Elapsed time: 16 seconds
+selectCodeEditor("sevenseg_decoder_tb.vhd", 37, 236); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 162, 241); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 173, 295); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 482, 311); // ae (sevenseg_decoder_tb.vhd)
+// Elapsed time: 25 seconds
+typeControlKey((HResource) null, "sevenseg_decoder_tb.vhd", 'v'); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 67, 366); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 70, 373); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 558, 410); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 552, 393); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 94, 395); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 99, 392); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 575, 326); // ae (sevenseg_decoder_tb.vhd)
+// Elapsed time: 13 seconds
+selectCodeEditor("sevenseg_decoder_tb.vhd", 523, 297); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 487, 288); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 534, 355); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 304, 332); // ae (sevenseg_decoder_tb.vhd)
+// Elapsed time: 38 seconds
+selectCodeEditor("sevenseg_decoder_tb.vhd", 371, 278); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 354, 369); // ae (sevenseg_decoder_tb.vhd)
+// Elapsed time: 41 seconds
+selectCodeEditor("sevenseg_decoder_tb.vhd", 185, 386); // ae (sevenseg_decoder_tb.vhd)
+// [GUI Memory]: 162 MB (+6596kb) [00:21:59]
+// HMemoryUtils.trashcanNow. Engine heap size: 833 MB. GUI used memory: 88 MB. Current time: 3/5/25, 10:38:38 PM MST
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking 1131 ms to process. Increasing delay to 2000 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking 1133 ms to process. Increasing delay to 2000 ms.
+// Elapsed time: 944 seconds
+typeControlKey((HResource) null, "sevenseg_decoder_tb.vhd", 'v'); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 44, 95); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 44, 309); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 23, 328); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 72, 223); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 73, 264); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 72, 224); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 109, 263); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 43, 162); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 26, 185); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 45, 207); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 25, 225); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 45, 243); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 28, 264); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 45, 288); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 25, 308); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 44, 332); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 26, 349); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 45, 241); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 27, 267); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 43, 290); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 28, 309); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 44, 326); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 22, 355); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 27, 349); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 44, 245); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 29, 262); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 46, 290); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 26, 307); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 45, 329); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 26, 350); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 44, 365); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 28, 199); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 45, 226); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 26, 245); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 44, 268); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 26, 286); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 43, 308); // ae (sevenseg_decoder_tb.vhd)
+// Elapsed time: 20 seconds
+selectCodeEditor("sevenseg_decoder_tb.vhd", 683, 311); // ae (sevenseg_decoder_tb.vhd)
+// Elapsed time: 19 seconds
+selectCodeEditor("sevenseg_decoder_tb.vhd", 34, 352); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 33, 178); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 71, 205); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 34, 220); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 73, 243); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 38, 268); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 73, 283); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 30, 304); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 36, 306); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 71, 183); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 70, 333); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 39, 216); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 75, 247); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 37, 272); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 74, 294); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 73, 287); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 37, 308); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 75, 335); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 36, 349); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 71, 181); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 37, 196); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 73, 222); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 37, 244); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 71, 266); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 40, 281); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 68, 306); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 33, 328); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 68, 351); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 38, 126); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 37, 116); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 36, 160); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 71, 184); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 36, 206); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 71, 225); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 38, 248); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 72, 265); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 37, 307); // ae (sevenseg_decoder_tb.vhd)
+// Elapsed time: 50 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // C (RDIResourceCommand.RDICommands_SAVE_FILE)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 36m:33s
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // x (PAResourceOtoP.PAViews_PROJECT_SUMMARY, PlanAheadTabProject Summary)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 36m:35s
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 36m:37s
+selectCodeEditor("sevenseg_decoder_tb.vhd", 522, 160); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 526, 162); // ae (sevenseg_decoder_tb.vhd)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 36m:39s
+// Tcl Message: update_compile_order -fileset sim_1 
+selectCodeEditor("sevenseg_decoder_tb.vhd", 508, 165); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 508, 165, false, false, false, false, true); // ae (sevenseg_decoder_tb.vhd) - Double Click
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 36m:41s
+selectCodeEditor("sevenseg_decoder_tb.vhd", 531, 160); // ae (sevenseg_decoder_tb.vhd)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 36m:43s
+selectCodeEditor("sevenseg_decoder_tb.vhd", 524, 156); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 522, 204); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 523, 245); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 523, 289); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 523, 328); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 520, 371); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 522, 183); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 524, 218); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 522, 263); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 522, 303); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 519, 349); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 521, 263); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 518, 305); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 519, 348); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 521, 267); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 518, 309); // ae (sevenseg_decoder_tb.vhd)
+// Elapsed time: 13 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // C (RDIResourceCommand.RDICommands_SAVE_FILE)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 37m:43s
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 5); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 37m:45s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 4, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 3); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Basys3_Master.xdc]", 5, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Basys3_Master.xdc]", 5, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // J (PAResourceOtoP.PAViews_CODE, PlanAheadTabCode)
+// Elapsed time: 21 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_basys3(top_basys3_arch) (top_basys3.vhd)]", 1, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_basys3(top_basys3_arch) (top_basys3.vhd)]", 1, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // J (PAResourceOtoP.PAViews_CODE, PlanAheadTabCode)
+// Elapsed time: 42 seconds
+selectCodeEditor("top_basys3.vhd", 165, 153); // ae (top_basys3.vhd)
+// Elapsed time: 160 seconds
+selectCodeEditor("top_basys3.vhd", 482, 204); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 566, 225); // ae (top_basys3.vhd)
+// Elapsed time: 19 seconds
+selectCodeEditor("top_basys3.vhd", 438, 304); // ae (top_basys3.vhd)
+// Elapsed time: 84 seconds
+selectCodeEditor("top_basys3.vhd", 360, 308); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 321, 278); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 306, 218); // ae (top_basys3.vhd)
+// Elapsed time: 99 seconds
+selectCodeEditor("top_basys3.vhd", 239, 160); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 225, 145); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 689, 95); // ae (top_basys3.vhd)
+// Elapsed time: 42 seconds
+selectCodeEditor("top_basys3.vhd", 141, 225); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 141, 225); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 166, 15); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 167, 13); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 158, 92); // ae (top_basys3.vhd)
+// Elapsed time: 43 seconds
+selectCodeEditor("top_basys3.vhd", 152, 47); // ae (top_basys3.vhd)
+// Elapsed time: 28 seconds
+selectCodeEditor("top_basys3.vhd", 31, 75); // ae (top_basys3.vhd)
+typeControlKey((HResource) null, "top_basys3.vhd", 'c'); // ae (top_basys3.vhd)
+// Elapsed time: 55 seconds
+selectCodeEditor("top_basys3.vhd", 604, 62); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 599, 48); // ae (top_basys3.vhd)
+// Elapsed time: 11 seconds
+selectCodeEditor("top_basys3.vhd", 437, 119); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 188, 57); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 188, 57, false, false, false, false, true); // ae (top_basys3.vhd) - Double Click
+selectCodeEditor("top_basys3.vhd", 446, 124); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 272, 180); // ae (top_basys3.vhd)
+// Elapsed time: 64 seconds
+selectCodeEditor("top_basys3.vhd", 453, 199); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 524, 199); // ae (top_basys3.vhd)
+// Elapsed time: 12 seconds
+selectCodeEditor("top_basys3.vhd", 495, 163); // ae (top_basys3.vhd)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // C (RDIResourceCommand.RDICommands_SAVE_FILE)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 50m:21s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 50m:23s
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 50m:25s
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 50m:29s
+// Elapsed time: 129 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 6); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, sevenseg_decoder_tb(Behavioral) (sevenseg_decoder_tb.vhd)]", 7, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, sevenseg_decoder_tb(Behavioral) (sevenseg_decoder_tb.vhd)]", 7, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+// Elapsed time: 19 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, top_basys3(top_basys3_arch) (top_basys3.vhd)]", 9); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+// Elapsed time: 20 seconds
+selectCodeEditor("sevenseg_decoder_tb.vhd", 436, 158); // ae (sevenseg_decoder_tb.vhd)
+selectCodeEditor("sevenseg_decoder_tb.vhd", 440, 158); // ae (sevenseg_decoder_tb.vhd)
+// Elapsed time: 31 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, top_basys3(top_basys3_arch) (top_basys3.vhd), sevenseg_decoder_inst : sevenseg_decoder(Behavioral) (sevenseg_decoder.vhd)]", 10, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, top_basys3(top_basys3_arch) (top_basys3.vhd)]", 9); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+// Elapsed time: 33 seconds
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // J (PAResourceOtoP.PAViews_CODE, PlanAheadTabCode)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_basys3(top_basys3_arch) (top_basys3.vhd)]", 1, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_basys3(top_basys3_arch) (top_basys3.vhd)]", 1, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // J (PAResourceOtoP.PAViews_CODE, PlanAheadTabCode)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, sevenseg_decoder_tb(Behavioral) (sevenseg_decoder_tb.vhd)]", 8, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, sevenseg_decoder_tb(Behavioral) (sevenseg_decoder_tb.vhd)]", 8, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_basys3.vhd", 0); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_basys3.vhd", 1, true, false); // o (PlanAheadTabBaseWorkspace_JideTabbedPane) - Popup Trigger
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "sevenseg_decoder_tb.vhd", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_basys3(top_basys3_arch) (top_basys3.vhd)]", 1); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_basys3.vhd", 0); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // J (PAResourceOtoP.PAViews_CODE, PlanAheadTabCode)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Utility Sources]", 9); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Utility Sources]", 9); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1]", 3); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 2); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_basys3(top_basys3_arch) (top_basys3.vhd)]", 1, true, false, false, false, true, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Popup Trigger - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_basys3(top_basys3_arch) (top_basys3.vhd)]", 1); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_basys3(top_basys3_arch) (top_basys3.vhd), sevenseg_decoder_inst : sevenseg_decoder(Behavioral) (sevenseg_decoder.vhd)]", 2, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_basys3(top_basys3_arch) (top_basys3.vhd), sevenseg_decoder_inst : sevenseg_decoder(Behavioral) (sevenseg_decoder.vhd)]", 2, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+// Elapsed time: 29 seconds
+selectCodeEditor("sevenseg_decoder.vhd", 286, 133); // ae (sevenseg_decoder.vhd)
+selectCodeEditor("sevenseg_decoder.vhd", 286, 133, false, false, false, false, true); // ae (sevenseg_decoder.vhd) - Double Click
+selectCodeEditor("sevenseg_decoder.vhd", 268, 133); // ae (sevenseg_decoder.vhd)
+selectCodeEditor("sevenseg_decoder.vhd", 307, 133); // ae (sevenseg_decoder.vhd)
+selectCodeEditor("sevenseg_decoder.vhd", 307, 133, false, false, false, false, true); // ae (sevenseg_decoder.vhd) - Double Click
+selectCodeEditor("sevenseg_decoder.vhd", 271, 157); // ae (sevenseg_decoder.vhd)
+selectCodeEditor("sevenseg_decoder.vhd", 295, 156); // ae (sevenseg_decoder.vhd)
+selectCodeEditor("sevenseg_decoder.vhd", 295, 156, false, false, false, false, true); // ae (sevenseg_decoder.vhd) - Double Click
+selectCodeEditor("sevenseg_decoder.vhd", 276, 180); // ae (sevenseg_decoder.vhd)
+selectCodeEditor("sevenseg_decoder.vhd", 271, 180); // ae (sevenseg_decoder.vhd)
+selectCodeEditor("sevenseg_decoder.vhd", 300, 178); // ae (sevenseg_decoder.vhd)
+selectCodeEditor("sevenseg_decoder.vhd", 300, 178, false, false, false, false, true); // ae (sevenseg_decoder.vhd) - Double Click
+selectCodeEditor("sevenseg_decoder.vhd", 274, 202); // ae (sevenseg_decoder.vhd)
+selectCodeEditor("sevenseg_decoder.vhd", 300, 198); // ae (sevenseg_decoder.vhd)
+selectCodeEditor("sevenseg_decoder.vhd", 300, 198, false, false, false, false, true); // ae (sevenseg_decoder.vhd) - Double Click
+selectCodeEditor("sevenseg_decoder.vhd", 272, 218); // ae (sevenseg_decoder.vhd)
+selectCodeEditor("sevenseg_decoder.vhd", 295, 223); // ae (sevenseg_decoder.vhd)
+selectCodeEditor("sevenseg_decoder.vhd", 295, 223, false, false, false, false, true); // ae (sevenseg_decoder.vhd) - Double Click
+selectCodeEditor("sevenseg_decoder.vhd", 273, 240); // ae (sevenseg_decoder.vhd)
+selectCodeEditor("sevenseg_decoder.vhd", 296, 242); // ae (sevenseg_decoder.vhd)
+selectCodeEditor("sevenseg_decoder.vhd", 296, 242, false, false, false, false, true); // ae (sevenseg_decoder.vhd) - Double Click
+selectCodeEditor("sevenseg_decoder.vhd", 271, 265); // ae (sevenseg_decoder.vhd)
+selectCodeEditor("sevenseg_decoder.vhd", 307, 263); // ae (sevenseg_decoder.vhd)
+selectCodeEditor("sevenseg_decoder.vhd", 307, 263, false, false, false, false, true); // ae (sevenseg_decoder.vhd) - Double Click
+selectCodeEditor("sevenseg_decoder.vhd", 271, 287); // ae (sevenseg_decoder.vhd)
+selectCodeEditor("sevenseg_decoder.vhd", 299, 288); // ae (sevenseg_decoder.vhd)
+selectCodeEditor("sevenseg_decoder.vhd", 316, 279); // ae (sevenseg_decoder.vhd)
+selectCodeEditor("sevenseg_decoder.vhd", 316, 279, false, false, false, false, true); // ae (sevenseg_decoder.vhd) - Double Click
+selectCodeEditor("sevenseg_decoder.vhd", 290, 281); // ae (sevenseg_decoder.vhd)
+selectCodeEditor("sevenseg_decoder.vhd", 256, 301); // ae (sevenseg_decoder.vhd)
+selectCodeEditor("sevenseg_decoder.vhd", 295, 138); // ae (sevenseg_decoder.vhd)
+selectCodeEditor("sevenseg_decoder.vhd", 295, 138, false, false, false, false, true); // ae (sevenseg_decoder.vhd) - Double Click
+selectCodeEditor("sevenseg_decoder.vhd", 270, 140); // ae (sevenseg_decoder.vhd)
+selectCodeEditor("sevenseg_decoder.vhd", 304, 137); // ae (sevenseg_decoder.vhd)
+selectCodeEditor("sevenseg_decoder.vhd", 304, 137, false, false, false, false, true); // ae (sevenseg_decoder.vhd) - Double Click
+selectCodeEditor("sevenseg_decoder.vhd", 272, 162); // ae (sevenseg_decoder.vhd)
+selectCodeEditor("sevenseg_decoder.vhd", 309, 158); // ae (sevenseg_decoder.vhd)
+selectCodeEditor("sevenseg_decoder.vhd", 309, 158, false, false, false, false, true); // ae (sevenseg_decoder.vhd) - Double Click
+selectCodeEditor("sevenseg_decoder.vhd", 271, 179); // ae (sevenseg_decoder.vhd)
+selectCodeEditor("sevenseg_decoder.vhd", 311, 178); // ae (sevenseg_decoder.vhd)
+selectCodeEditor("sevenseg_decoder.vhd", 311, 178, false, false, false, false, true); // ae (sevenseg_decoder.vhd) - Double Click
+selectCodeEditor("sevenseg_decoder.vhd", 271, 200); // ae (sevenseg_decoder.vhd)
+selectCodeEditor("sevenseg_decoder.vhd", 315, 205); // ae (sevenseg_decoder.vhd)
+selectCodeEditor("sevenseg_decoder.vhd", 304, 198); // ae (sevenseg_decoder.vhd)
+selectCodeEditor("sevenseg_decoder.vhd", 304, 198, false, false, false, false, true); // ae (sevenseg_decoder.vhd) - Double Click
+selectCodeEditor("sevenseg_decoder.vhd", 283, 224); // ae (sevenseg_decoder.vhd)
+selectCodeEditor("sevenseg_decoder.vhd", 283, 224, false, false, false, false, true); // ae (sevenseg_decoder.vhd) - Double Click
+selectCodeEditor("sevenseg_decoder.vhd", 271, 220); // ae (sevenseg_decoder.vhd)
+selectCodeEditor("sevenseg_decoder.vhd", 309, 219); // ae (sevenseg_decoder.vhd)
+selectCodeEditor("sevenseg_decoder.vhd", 269, 242); // ae (sevenseg_decoder.vhd)
+selectCodeEditor("sevenseg_decoder.vhd", 271, 262); // ae (sevenseg_decoder.vhd)
+selectCodeEditor("sevenseg_decoder.vhd", 269, 283); // ae (sevenseg_decoder.vhd)
+selectCodeEditor("sevenseg_decoder.vhd", 318, 219); // ae (sevenseg_decoder.vhd)
+selectCodeEditor("sevenseg_decoder.vhd", 318, 219, false, false, false, false, true); // ae (sevenseg_decoder.vhd) - Double Click
+selectCodeEditor("sevenseg_decoder.vhd", 291, 241); // ae (sevenseg_decoder.vhd)
+selectCodeEditor("sevenseg_decoder.vhd", 291, 241, false, false, false, false, true); // ae (sevenseg_decoder.vhd) - Double Click
+selectCodeEditor("sevenseg_decoder.vhd", 308, 242); // ae (sevenseg_decoder.vhd)
+selectCodeEditor("sevenseg_decoder.vhd", 308, 242, false, false, false, false, true); // ae (sevenseg_decoder.vhd) - Double Click
+selectCodeEditor("sevenseg_decoder.vhd", 246, 283); // ae (sevenseg_decoder.vhd)
+selectCodeEditor("sevenseg_decoder.vhd", 306, 268); // ae (sevenseg_decoder.vhd)
+selectCodeEditor("sevenseg_decoder.vhd", 306, 268, false, false, false, false, true); // ae (sevenseg_decoder.vhd) - Double Click
+selectCodeEditor("sevenseg_decoder.vhd", 237, 300); // ae (sevenseg_decoder.vhd)
+selectCodeEditor("sevenseg_decoder.vhd", 308, 286); // ae (sevenseg_decoder.vhd)
+selectCodeEditor("sevenseg_decoder.vhd", 308, 286, false, false, false, false, true); // ae (sevenseg_decoder.vhd) - Double Click
+selectCodeEditor("sevenseg_decoder.vhd", 461, 300); // ae (sevenseg_decoder.vhd)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // C (RDIResourceCommand.RDICommands_SAVE_FILE)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 57m:03s
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 57m:07s
